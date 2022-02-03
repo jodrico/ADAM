@@ -1,0 +1,49 @@
+apiVersion: v1
+entries:
+  jupyterhub:
+  - annotations:
+      artifacthub.io/images: |
+        - image: jupyterhub/configurable-http-proxy:4.5.0
+          name: configurable-http-proxy
+        - image: jupyterhub/k8s-hub:1.2.0
+          name: k8s-hub
+        - image: jupyterhub/k8s-image-awaiter:1.2.0
+          name: k8s-image-awaiter
+        - image: jupyterhub/k8s-network-tools:1.2.0
+          name: k8s-network-tools
+        - image: jupyterhub/k8s-secret-sync:1.2.0
+          name: k8s-secret-sync
+        - image: jupyterhub/k8s-singleuser-sample:1.2.0
+          name: k8s-singleuser-sample
+        - image: k8s.gcr.io/kube-scheduler:v1.19.13
+          name: kube-scheduler
+        - image: k8s.gcr.io/pause:3.5
+          name: pause
+        - image: k8s.gcr.io/pause:3.5
+          name: pause
+        - image: traefik:v2.4.11
+          name: traefik
+    apiVersion: v2
+    appVersion: 1.5.0
+    created: "2022-02-03T02:09:23.199052062+02:00"
+    description: Multi-user Jupyter installation
+    digest: a83fb0b1c32df1aab53ed5b7c7f30f592aa0a9efce952afb3b66eeb01571e67e
+    home: https://z2jh.jupyter.org
+    icon: https://jupyter.org/assets/hublogo.svg
+    keywords:
+    - jupyter
+    - jupyterhub
+    - z2jh
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: erik@sundellopensource.se
+      name: Erik Sundell
+    - name: Simon Li
+      url: https://github.com/manics/
+    name: jupyterhub
+    sources:
+    - https://github.com/jupyterhub/zero-to-jupyterhub-k8s
+    urls:
+    - jupyterhub-1.2.0.tgz
+    version: 1.2.0
+generated: "2022-02-03T02:09:23.188787789+02:00"
