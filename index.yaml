@@ -25,9 +25,9 @@ entries:
           name: traefik
     apiVersion: v2
     appVersion: 1.5.0
-    created: "2022-02-03T02:09:23.199052062+02:00"
+    created: "2022-02-03T02:28:11.423504318+02:00"
     description: Multi-user Jupyter installation
-    digest: a83fb0b1c32df1aab53ed5b7c7f30f592aa0a9efce952afb3b66eeb01571e67e
+    digest: a30f5561984f8ca006969bdbd272105ff0309bf80065203749757c256773bab4
     home: https://z2jh.jupyter.org
     icon: https://jupyter.org/assets/hublogo.svg
     keywords:
@@ -46,4 +46,4 @@ entries:
     urls:
     - jupyterhub-1.2.0.tgz
     version: 1.2.0
-generated: "2022-02-03T02:09:23.188787789+02:00"
+generated: "2022-02-03T02:28:11.413073502+02:00"
