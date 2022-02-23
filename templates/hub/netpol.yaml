@@ -70,7 +70,7 @@ spec:
               {{- include "jupyterhub.matchLabels" $_ | nindent 14 }}
     # hub --> singleuser-server
     - ports:
-        - port: 8888
+        - port: 7777
       to:
         - podSelector:
             matchLabels:
